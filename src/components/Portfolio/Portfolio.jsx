@@ -17,7 +17,7 @@ export default function Portfolio() {
       <div className="container text-center">
   <div className="row">
     <div className="col-md-4">
-            <div onClick={()=>{SetImg("../../imgs/poert1.png"); SetIsOpen(true);}}   className="position-relative overflow-hidden rounded-2">
+            <div onClick={()=>{SetImg(poert1); SetIsOpen(true);}}   className="position-relative overflow-hidden rounded-2">
               <img  className="w-100" src={poert1} alt="" />
               <div className="overlay d-flex justify-content-center align-items-center">
                 <i className="fa-solid fa-plus fa-3x text-white"></i>
@@ -25,7 +25,7 @@ export default function Portfolio() {
             </div>
           </div>
     <div className="col-md-4">
-            <div onClick={()=>{SetImg("../../imgs/port2.png"); SetIsOpen(true);}}  className="position-relative overflow-hidden rounded-2">
+            <div onClick={()=>{SetImg(port2); SetIsOpen(true);}}  className="position-relative overflow-hidden rounded-2">
               <img  className="w-100" src={port2} alt="" />
               <div className="overlay d-flex justify-content-center align-items-center">
                 <i className="fa-solid fa-plus fa-3x text-white"></i>
@@ -33,7 +33,7 @@ export default function Portfolio() {
             </div>
           </div>
     <div className="col-md-4">
-            <div  onClick={()=>{SetImg("../../imgs/port3.png"); SetIsOpen(true);}} className="position-relative overflow-hidden rounded-2">
+            <div  onClick={()=>{SetImg(port3); SetIsOpen(true);}} className="position-relative overflow-hidden rounded-2">
               <img className="w-100" src={port3} alt="" />
               <div className="overlay d-flex justify-content-center align-items-center">
                 <i className="fa-solid fa-plus fa-3x text-white"></i>
@@ -43,9 +43,9 @@ export default function Portfolio() {
     
   
   </div>
-  <div className="row mt-5 mb-5">
+  <div className="row mb-5 mt-5">
     <div className="col-md-4">
-            <div onClick={()=>{SetImg("../../imgs/poert1.png"); SetIsOpen(true);}}   className="position-relative overflow-hidden rounded-2">
+            <div onClick={()=>{SetImg(poert1); SetIsOpen(true);}}   className="position-relative overflow-hidden rounded-2">
               <img  className="w-100" src={poert1} alt="" />
               <div className="overlay d-flex justify-content-center align-items-center">
                 <i className="fa-solid fa-plus fa-3x text-white"></i>
@@ -53,7 +53,7 @@ export default function Portfolio() {
             </div>
           </div>
     <div className="col-md-4">
-            <div onClick={()=>{SetImg("../../imgs/port2.png"); SetIsOpen(true);}}  className="position-relative overflow-hidden rounded-2">
+            <div onClick={()=>{SetImg(port2); SetIsOpen(true);}}  className="position-relative overflow-hidden rounded-2">
               <img  className="w-100" src={port2} alt="" />
               <div className="overlay d-flex justify-content-center align-items-center">
                 <i className="fa-solid fa-plus fa-3x text-white"></i>
@@ -61,7 +61,7 @@ export default function Portfolio() {
             </div>
           </div>
     <div className="col-md-4">
-            <div  onClick={()=>{SetImg("../../imgs/port3.png"); SetIsOpen(true);}} className="position-relative overflow-hidden rounded-2">
+            <div  onClick={()=>{SetImg(port3); SetIsOpen(true);}} className="position-relative overflow-hidden rounded-2">
               <img className="w-100" src={port3} alt="" />
               <div className="overlay d-flex justify-content-center align-items-center">
                 <i className="fa-solid fa-plus fa-3x text-white"></i>
@@ -71,6 +71,7 @@ export default function Portfolio() {
     
   
   </div>
+ 
  
   {isOpen && (<div onClick={()=> SetIsOpen(false)} className=' mt-5 position-fixed top-0 start-0 w-100 d-flex justify-content-center align-items-start h'>
     <div>
