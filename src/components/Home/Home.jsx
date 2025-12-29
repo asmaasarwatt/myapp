@@ -1,4 +1,5 @@
 import React from 'react'
+import avataaars from 'src/imgs/avataaars'
 
 export default function Home() {
   return (

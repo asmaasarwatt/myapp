@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
+import poert1 from 'src/imgs/poert1'
+import port2 from 'src/imgs/port2'
+import port3 from 'src/imgs/port3'
 export default function Portfolio() {
   let [isOpen,SetIsOpen] = useState(false);
   let [Img,SetImg] = useState(null);
