@@ -1,5 +1,5 @@
 import React from 'react'
-import avataaars from 'src/imgs/avataaars'
+import avataaars from '../../imgs/avataaars.svg'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container-fluid text-center">
       <div className="row justify-content-center align-items-center">
       <div className="col-md-10 mt-5">
-        <img className='mt-1' src="./src/imgs/avataaars.svg" alt=""/>
+        <img className='mt-1' src={avataaars} alt=""/>
       </div>
       <div className="col-md-12 mt-5">
         <h2 className='text-white fw-bold'>START FRAMEWORK</h2>
